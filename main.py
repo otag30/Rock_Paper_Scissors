@@ -25,7 +25,8 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-player_choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
+#Lesson solution is different (some comments from other students say the video code it generates an error if user chooses outside the list range.
+# But the code in the solution file seems to work so Im including it in this file.)
 computer_choice = random.choice([0, 1, 2])
 if player_choice == "0":
     print(rock)
